@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{{meta_title}}</title>
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans:300,400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="{{asset 'css/style.css'}}" rel="stylesheet" type="text/css">
+    <link href="{{asset 'css/style4lakto.css'}}" rel="stylesheet" type="text/css">
+    <link href="{{asset 'css/print.css'}}" rel="stylesheet" type="text/css">
+    <link href="{{asset 'css/animate.min.css'}}" rel="stylesheet" type="text/css">
+    <link href="{{asset 'favicon.ico'}}" rel="shortcut icon">
+    {{ghost_head}}
+</head>
+<body class="post-template">
+
+<header id="header" class="animated fadeIn error-page" style="background-image: url({{asset "img/error.jpg"}})">
+    <div class="header-background">
+        <section class="blog-content">
+            <a id="site-url" class="blog-title" href="{{@blog.url}}">[ {{@blog.title}} ]</a>
+            {{!--
+                        <span class="blog-description">{{@blog.description}}</span>
+            --}}
+            {{> links}}
+        </section>
+        <section class="header-content">
+            <h1 class="post-title animated fadeInUp">Hoppla, falsche Richtung</h1>
+            <span class="post-data">
+                <span class="tags animated fadeInUp"><i class="fa fa-error"></i>Die von dir aufgerufene Seite existiert nicht. Fehler 404. Gehe &mdash; ohne Gefängnis &mdash; zurück auf <a href="{{@blog.url}}">LOS</a>!</span>
+            </span>
+        </section>
+    </div>
+</header>
+<!--
+<main id="main" class="content">
+    <article class="animated fadeIn content post">
+        <section class="post-content">
+
+        </section>
+    </article>
+</main>
+-->
+<footer class="animated fadeIn do-not-print" id="footer">
+    {{> footer}}
+</footer>
+{{ghost_foot}}
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="{{asset 'js/scripts.js'}}"></script>
+</body>
+</html>
+
+
+
+
+
+

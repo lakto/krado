@@ -1,0 +1,68 @@
+/*
+//  P A P E R
+//  v 1.0.0
+//
+//  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*/
+
+/*  General
+//  ───────────────────────────────────
+*/
+    .paper {
+        background: #ffffff;
+        margin: 0;
+        padding: 0;
+
+    }
+
+/* A6
+//  ───────────────────────────────────
+*/
+    .paper.size-a6 {
+        height: 14.8cm;
+        width: 10.5cm;
+    }
+
+.paper.size-a6.layout-landscape {
+    height: 10.5cm;
+    width: 14.8cm;
+}
+
+/* A5
+//  ───────────────────────────────────
+*/
+    .paper.size-a5 {
+        height: 21cm;
+        width: 14.8cm;
+    }
+
+.paper.size-a5.layout-landscape {
+    height: 14.8cm;
+    width: 21cm;
+}
+
+/* A4
+//  ───────────────────────────────────
+*/
+    .paper.size-a4 {
+        height: 29.8cm;
+        width: 21cm;
+    }
+
+.paper.size-a4.layout-landscape {
+    height: 21cm;
+    width: 29.8cm;
+}
+
+/* A3
+//  ───────────────────────────────────
+*/
+    .paper.size-a3 {
+        height: 42cm;
+        width: 29.8cm;
+    }
+
+.paper.size-a3.layout-landscape {
+    height: 29.8cm;
+    width: 42cm;
+}

@@ -1,0 +1,62 @@
+@import 'print.css';
+
+.print-only {
+    display: none;
+}
+
+@media print {
+
+    .do-not-print, img {
+        display: none;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, li, a {
+        line-height: 1.3;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2 {
+        font-size: 11pt;
+        letter-spacing: 3px;
+    }
+    h3, h4, h5, h6, p, li, a {
+        font-size: 9pt;
+    }
+
+    .content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        position: absolute;
+        top: 30px;
+    }
+
+    .date, .tags {
+        font-size: 9pt;
+        position: absolute;
+        top: 0;
+        width: 40%;
+    }
+
+    .tags {
+        right: 6px;
+        text-align: right;
+        width: 60%;
+    }
+
+    .tags a {
+        border: 0;
+        text-decoration: none;
+    }
+
+    hr {
+        page-break-after: always;
+    }
+}

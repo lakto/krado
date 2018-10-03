@@ -1,0 +1,45 @@
+.icon {
+    display: inline;
+    height: 24px;
+    margin: 0;
+    position: relative;
+    top: 8px;
+    width: 24px;
+}
+
+.navigation {
+    float: left;
+    line-height: 60px;
+    margin-left: 24px;
+    cursor: default;
+}
+
+.navigation ul {
+    margin: 0;
+    list-style: none;
+    cursor: default;
+}
+.navigation ul li {
+    display: inline-block;
+    font-size: smaller;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.navigation ul li a {
+    border: none;
+    text-decoration: none;
+
+}
+
+#header.error-page {
+    height: 100vh;
+}
+
+.error-page .tags {
+    font-size: 2em;
+}
+
+#header .header-content .tag-data {
+    font-size: 2rem;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "krado",
+  "version": "1.0.0",
+  "description": "Ghost (v2) template for portfolio pages | forked from SAGA",
+  "author": {
+    "name": "André Kilchenmann | Lakto.design",
+    "url": "https://github.com/lakto",
+    "email": "themes@lakto.design"
+  },
+  "homepage": "https://github.com/lakto/krado",
+  "keywords": ["ghost-theme"],
+  "config": {
+    "posts_per_page": 12
+  }
+}
